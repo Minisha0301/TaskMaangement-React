@@ -5,8 +5,8 @@ import "./table.css";
 const Summary = ({ refreshKey }) => {
   const { summary, loading } = useSummary(refreshKey);
 
-  if (loading) return <p>Loading...</p>;
-  if (!summary) return <p>No data</p>;
+  if (loading) return <center><p>Loading...</p></center>;
+  if (!summary) return <div className="summary-container"><p>No data in summary</p></div>;
 
   return (
     <div className="summary-container">
