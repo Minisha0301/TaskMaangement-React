@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f3f4f6; 
+}
+
+input, textarea, select {
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #3b82f6; 
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.9;
+}

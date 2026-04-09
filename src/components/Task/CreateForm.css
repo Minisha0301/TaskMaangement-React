@@ -1,0 +1,69 @@
+.task-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.task-container h2 {
+  margin-bottom: 15px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.subtask-section {
+  margin-top: 10px;
+}
+
+.subtask-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subtask-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.add-btn {
+  background: #3b82f6;
+}
+
+.delete-btn {
+  background: #ef4444;
+  margin-bottom: 15px;
+}
+
+.submit-btn {
+  width: 100%;
+  margin-top: 15px;
+  background: #16a34a;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
