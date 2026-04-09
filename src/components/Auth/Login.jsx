@@ -4,7 +4,6 @@ import { useNavigate } from "react-router";
 
 export default function Login() {
 
-
     let navigate = useNavigate();
 
     const [form, setForm] = useState({
@@ -58,8 +57,9 @@ export default function Login() {
         });
 
         const data = await res.json();
+        localStorage.setItem("token", "loggedin");
         alert(data.message);
-        navigate('dashboard');
+        navigate('/dashboard');
         } catch (err) {
         console.error(err);
         }
